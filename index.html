@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jordanian Society of American Medical Graduates (JSAMG)</title>
+  <meta name="description" content="Official website of the Jordanian Society of American Medical Graduates (JSAMG): scientific events, news, leadership, and membership. الموقع الرسمي لجمعية الأطباء خريجي الولايات المتحدة الأمريكية.">
+  <meta name="theme-color" content="#0b2a5b">
+  <link rel="icon" type="image/png" href="images/logo/favicon-64.png">
+  <link rel="apple-touch-icon" href="images/logo/apple-touch-icon.png">
+  <meta property="og:title" content="Jordanian Society of American Medical Graduates (JSAMG)">
+  <meta property="og:description" content="Official website of the Jordanian Society of American Medical Graduates (JSAMG): scientific events, news, leadership, and membership. الموقع الرسمي لجمعية الأطباء خريجي الولايات المتحدة الأمريكية.">
+  <meta property="og:image" content="images/logo/jsamg-logo.jpg">
+  <meta property="og:site_name" content="Jordanian Society of American Medical Graduates (JSAMG)">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Amiri:wght@400;700&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Jordanian Society of American Medical Graduates",
+    "alternateName": ["JSAMG", "جمعية الأطباء خريجي الولايات المتحدة الأمريكية"],
+    "email": "info.jsamg@gmail.com",
+    "areaServed": "JO"
+  }
+  </script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow light" data-i18n="hero.eyebrow">Physicians · Education · Fellowship</p>
+          <h1 data-i18n="hero.title">Advancing Medical Excellence Together</h1>
+          <p class="lead" data-i18n="hero.lead"></p>
+          <div class="hero-cta">
+            <a class="btn btn-light" id="hero-event-cta" href="#event">View Upcoming Event</a>
+            <a class="btn btn-outline-light" href="#membership" data-i18n="hero.ctaJoin">Join the Society</a>
+          </div>
+          <div class="hero-badge" id="hero-badge" hidden></div>
+        </div>
+        <div class="hero-logo">
+          <div class="logo-disc">
+            <img src="images/logo/jsamg-logo.jpg" data-i18n-alt="logoAlt" alt="Official logo of the Jordanian Society of American Medical Graduates (JSAMG)" width="1024" height="1026">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WELCOME + ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <p class="eyebrow" data-i18n="welcome.eyebrow">Welcome</p>
+            <h2 data-i18n="welcome.title">A Message from JSAMG</h2>
+            <p data-i18n="welcome.body"></p>
+          </div>
+          <div>
+            <p class="eyebrow" data-i18n="about.eyebrow">About JSAMG</p>
+            <h2 data-i18n="about.title">A Community of Physicians in Jordan</h2>
+            <p data-i18n="about.body"></p>
+            <a class="more-link" data-page-link="about.html" href="about.html" data-i18n="about.more">Learn more about us</a>
+          </div>
+        </div>
+        <div class="pillars" id="pillars"></div>
+      </div>
+    </section>
+
+    <!-- FEATURED EVENT -->
+    <section class="section section-tint" id="event">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="event.eyebrow">Featured Event</p>
+          <h2 id="event-heading"></h2>
+        </div>
+        <div id="featured-event"></div>
+        <div class="section-cta"><a class="btn btn-outline" data-page-link="events.html" href="events.html" data-i18n="event.allEvents">All events</a></div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="section" id="news">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="news.eyebrow">News & Announcements</p>
+          <h2 data-i18n="news.title">Latest from the Society</h2>
+        </div>
+        <div id="news-list" class="news-grid"></div>
+        <div class="section-cta"><a class="btn btn-outline" data-page-link="news.html" href="news.html" data-i18n="news.all">All news</a></div>
+      </div>
+    </section>
+
+    <!-- BOARD PREVIEW -->
+    <section class="section section-navy" id="board">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow light" data-i18n="board.eyebrow">Leadership</p>
+          <h2 data-i18n="board.title">Board of Directors</h2>
+          <p class="muted-light" data-i18n="board.lead"></p>
+        </div>
+        <figure class="board-photo">
+          <button type="button" class="zoomable" data-lb="board:0" data-i18n-aria="board.photoCaption">
+            <img src="images/board/board-group-photo.jpg" width="1280" height="1024" loading="lazy" data-i18n-alt="board.photoAlt" alt="">
+          </button>
+          <figcaption data-i18n="board.photoCaption"></figcaption>
+        </figure>
+        <div id="board-grid" class="board-grid"></div>
+        <div class="section-cta"><a class="btn btn-outline-light" data-page-link="board.html" href="board.html" data-i18n="board.viewAll">Meet the full Board</a></div>
+      </div>
+    </section>
+
+    <!-- GALLERY PREVIEW -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="gallery.eyebrow">Gallery</p>
+          <h2 data-i18n="gallery.title">Moments from the Society</h2>
+          <p data-i18n="gallery.lead"></p>
+        </div>
+        <div class="gallery-grid" id="gallery-preview"></div>
+        <div class="section-cta"><a class="btn btn-outline" data-page-link="gallery.html" href="gallery.html" data-i18n="gallery.all">Open full gallery</a></div>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP -->
+    <section class="section membership" id="membership">
+      <div class="container membership-inner">
+        <div>
+          <p class="eyebrow light" data-i18n="membership.eyebrow">Membership</p>
+          <h2 data-i18n="membership.title">Become Part of JSAMG</h2>
+          <p data-i18n="membership.body"></p>
+          <a class="more-link light" data-page-link="membership.html" href="membership.html" data-i18n="common.learnMore">Learn more</a>
+        </div>
+        <div class="membership-cta">
+          <a class="btn btn-light btn-lg" data-mailto="membership" href="#membership" data-i18n="membership.cta">Join JSAMG</a>
+          <p class="small" data-i18n="membership.note"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">Get in Touch</h2>
+          <p data-i18n="contact.body"></p>
+        </div>
+        <div class="contact-grid" id="home-contact"></div>
+        <div class="section-cta"><a class="btn btn-outline" data-page-link="contact.html" href="contact.html" data-i18n="nav.contact">Contact Us</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"></footer>
+
+  <script src="data/site-text.js"></script>
+  <script src="data/events.js"></script>
+  <script src="data/board.js"></script>
+  <script src="data/news.js"></script>
+  <script src="data/gallery.js"></script>
+  <script src="data/contact.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
