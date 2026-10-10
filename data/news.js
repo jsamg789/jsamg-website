@@ -24,6 +24,22 @@ window.JSAMG.newsCategories = {
 
 window.JSAMG.news = [
   {
+    id: "2026-08-12-social-gathering-report",
+    date: "2026-08-12",
+    category: "society",
+    image: "images/gallery/2026-08-12-social-gathering/photo-01.jpg",
+    link: "gallery.html",
+    en: {
+      title: "JSAMG Social Gathering — August 2026",
+      text: "JSAMG held a social gathering at the St. Regis Amman on August 12, 2026, featuring a lecture by Dr. Ihab Shehadeh on the current management of IBS, a welcome to new members, and recognition of Dr. Ziad Sharaiha for his contributions to gastroenterology and advanced medicine. View the event photo gallery."
+    },
+    ar: {
+      title: "اللقاء الاجتماعي لجمعية الأطباء خريجي الولايات المتحدة الأمريكية — آب 2026",
+      text: "أقامت الجمعية لقاءً اجتماعياً في فندق سانت ريجيس عمّان يوم 12 آب 2026، تضمن الترحيب بالأعضاء الجدد ومحاضرة للدكتور إيهاب شحادة حول أحدث طرق علاج القولون العصبي، وتكريم الدكتور زياد شرايحة تقديراً لإسهاماته في أمراض الجهاز الهضمي والطب المتقدم. يمكنكم مشاهدة صور اللقاء في معرض الصور."
+    }
+  },
+
+  {
     id: "2026-10-13-event-announcement",
     date: "2026-10-09",
     category: "scientific",

@@ -22,6 +22,73 @@ window.JSAMG = window.JSAMG || {};
 
 window.JSAMG.gallery = [
   {
+    id: "2026-08-12-social-gathering",
+    en: {
+      title: "JSAMG Social Gathering — August 12, 2026",
+      description: "An evening of professional fellowship, an educational lecture by Dr. Ihab Shehadeh on the current management of IBS, and recognition of Dr. Ziad Sharaiha. St. Regis Amman."
+    },
+    ar: {
+      title: "اللقاء الاجتماعي للجمعية — 12 آب 2026",
+      description: "أمسية للتواصل المهني تضمنت محاضرة للدكتور إيهاب شحادة حول أحدث طرق علاج القولون العصبي، وتكريم الدكتور زياد شرايحة، في فندق سانت ريجيس عمّان."
+    },
+    photos: [
+      { src: "images/gallery/2026-08-12-social-gathering/photo-01.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-02.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-03.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-04.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-05.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-06.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-07.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-08.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-10.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-11.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-12.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-13.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-14.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-15.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-16.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-17.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-18.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-19.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-20.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-21.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-22.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-23.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-24.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-25.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-26.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-27.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-28.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-29.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-30.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-31.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-32.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-33.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-34.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-35.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-36.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-37.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-38.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-39.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-40.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-41.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-42.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-43.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-44.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-45.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-46.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-47.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-48.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-49.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-50.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-51.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-52.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-53.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" },
+      { src: "images/gallery/2026-08-12-social-gathering/photo-54.jpg", en: "JSAMG Social Gathering — August 12, 2026", ar: "اللقاء الاجتماعي للجمعية — 12 آب 2026" }
+    ]
+  },
+
+  {
     id: "leadership",
     en: {
       title: "Society Leadership",
