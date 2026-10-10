@@ -21,27 +21,27 @@ window.JSAMG.boardPhoto = {
 window.JSAMG.board = [
   {
     id: "president",
-    photo: "",
-    en: { name: "Dr. Mohammad Amer Al-Khatib", position: "President", specialty: "", bio: "" },
-    ar: { name: "د. محمد عامر الخطيب", position: "رئيس الجمعية", specialty: "", bio: "" }
+    photo: "images/board/Dr_Amer.jfif",
+    en: { name: "Dr. Mohammad Amer Khatib", position: "President", specialty: "", bio: "" },
+    ar: { name: "الدكتور محمد عامر خطيب", position: "رئيس الجمعية", specialty: "", bio: "" }
   },
   {
     id: "vice-president",
     photo: "",
     en: { name: "Dr. Sana Al-Sukhun", position: "Vice President", specialty: "", bio: "" },
-    ar: { name: "د. سناء السخن", position: "نائب الرئيس", specialty: "", bio: "" }
+    ar: { name: "الدكتورة سناء السخن", position: "نائب الرئيس", specialty: "", bio: "" }
   },
   {
     id: "scientific-chair",
     photo: "",
     en: { name: "Dr. Ashraf Haddad", position: "Chair, Scientific Committee", specialty: "", bio: "" },
-    ar: { name: "د. أشرف حداد", position: "رئيس اللجنة العلمية", specialty: "", bio: "" }
+    ar: { name: "الدكتور أشرف حداد", position: "رئيس اللجنة العلمية", specialty: "", bio: "" }
   },
   {
     id: "secretary",
     photo: "images/board/Dr_Maher.jpg",
     en: { name: "Dr. Maher Sughayer", position: "Secretary", specialty: "", bio: "" },
-    ar: { name: "د. ماهر الصغيّر", position: "أمين السر", specialty: "", bio: "" }
+    ar: { name: "الدكتور ماهر الصغيّر", position: "أمين السر", specialty: "", bio: "" }
   },
   {
     id: "media-chair",
@@ -51,8 +51,8 @@ window.JSAMG.board = [
   },
   {
     id: "social-chair",
-    photo: "",
+    photo: "images/board/Dr_Arafat.jfif",
     en: { name: "Dr. Arafat Samara", position: "Chair, Social Committee", specialty: "", bio: "" },
-    ar: { name: "د. عرفات سمارة", position: "رئيس اللجنة الاجتماعية", specialty: "", bio: "" }
+    ar: { name: "الدكتور عرفات سمارة", position: "رئيس اللجنة الاجتماعية", specialty: "", bio: "" }
   }
 ];
