@@ -39,7 +39,7 @@ window.JSAMG.board = [
   },
   {
     id: "secretary",
-    photo: "",
+    photo: "images/board/Dr_Maher.jpg",
     en: { name: "Dr. Maher Sughayer", position: "Secretary", specialty: "", bio: "" },
     ar: { name: "د. ماهر الصغيّر", position: "أمين السر", specialty: "", bio: "" }
   },
