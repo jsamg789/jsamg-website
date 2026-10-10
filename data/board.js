@@ -40,8 +40,8 @@ window.JSAMG.board = [
   {
     id: "secretary",
     photo: "",
-    en: { name: "Dr. Maher Al-Saghir", position: "Secretary", specialty: "", bio: "" },
-    ar: { name: "د. ماهر الصغير", position: "أمين السر", specialty: "", bio: "" }
+    en: { name: "Dr. Maher Sughayer", position: "Secretary", specialty: "", bio: "" },
+    ar: { name: "د. ماهر الصغيّر", position: "أمين السر", specialty: "", bio: "" }
   },
   {
     id: "media-chair",
