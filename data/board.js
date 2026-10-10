@@ -21,7 +21,7 @@ window.JSAMG.boardPhoto = {
 window.JSAMG.board = [
   {
     id: "president",
-    photo: "images/board/Dr_Amer.jfif",
+    photo: "images/board/Dr_Amer_new.jfif",
     en: { name: "Dr. Mohammad Amer Khatib", position: "President", specialty: "", bio: "" },
     ar: { name: "الدكتور محمد عامر خطيب", position: "رئيس الجمعية", specialty: "", bio: "" }
   },
@@ -51,7 +51,7 @@ window.JSAMG.board = [
   },
   {
     id: "social-chair",
-    photo: "images/board/Dr_Arafat.jfif",
+    photo: "images/board/Dr_Arafat_new.jfif",
     en: { name: "Dr. Arafat Samara", position: "Chair, Social Committee", specialty: "", bio: "" },
     ar: { name: "الدكتور عرفات سمارة", position: "رئيس اللجنة الاجتماعية", specialty: "", bio: "" }
   }
