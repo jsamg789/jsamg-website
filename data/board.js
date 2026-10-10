@@ -45,9 +45,9 @@ window.JSAMG.board = [
   },
   {
     id: "media-chair",
-    photo: "",
-    en: { name: "Dr. Fareed Khdair", position: "Chair, Media Committee", specialty: "", bio: "" },
-    ar: { name: "د. فريد خضير", position: "رئيس اللجنة الإعلامية", specialty: "", bio: "" }
+    photo: "images/board/fareed-khdair.jpg",
+    en: { name: "Prof. Fareed Khdair", position: "Chair, Media Committee", specialty: "", bio: "" },
+    ar: { name: "الأستاذ الدكتور فريد خضير", position: "رئيس اللجنة الإعلامية", specialty: "", bio: "" }
   },
   {
     id: "social-chair",
