@@ -195,7 +195,8 @@
     return '<article class="event-compact">' +
       (ev.poster ? '<div class="compact-poster">' + posterButton(ev, "") + "</div>" : "") +
       '<div class="compact-body"><div class="badges">' + eventBadges(ev) + "</div><h3>" + esc(d.title) + "</h3>" + eventMeta(ev) +
-      '<details><summary>' + esc(t.eventsPage.showDetails) + "</summary>" + eventDetails(ev) + eventPhotos(ev) + register + "</details></div></article>";
+      '<details><summary>' + esc(t.eventsPage.showDetails) + "</summary>" + eventDetails(ev) + eventPhotos(ev) + register + "</details>" +
+      (ev.galleryAlbum ? '<div class="event-actions"><a class="btn btn-outline" href="gallery.html?album=' + encodeURIComponent(ev.galleryAlbum) + '">' + (lang === "ar" ? "عرض ألبوم الصور" : "View Photo Gallery") + '</a></div>' : '') + '</div></article>';
   }
 
   /* ---------- filter chips ---------- */
@@ -371,6 +372,8 @@
 
   /* ---------- gallery ---------- */
   function renderGalleryPage() {
+    var requestedAlbum = new URLSearchParams(window.location.search).get("album");
+    if (requestedAlbum && GALLERY.some(function (a) { return a.id === requestedAlbum; })) filters.gallery = requestedAlbum;
     var P = t.galleryPage;
     var albums = GALLERY.filter(function (a) { return a.photos && a.photos.length; });
     if (!albums.some(function (a) { return a.id === filters.gallery; })) filters.gallery = "all";

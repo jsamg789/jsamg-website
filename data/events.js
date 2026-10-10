@@ -37,6 +37,46 @@ window.JSAMG.eventCategories = {
 
 window.JSAMG.events = [
   {
+    id: "2026-08-12-social-gathering",
+    date: "2026-08-12",
+    startTime: "19:30",
+    categories: ["lecture", "social", "networking"],
+    poster: "images/events/2026-08-12-social-gathering.jpg",
+    registrationLink: "",
+    galleryAlbum: "2026-08-12-social-gathering",
+    photos: [],
+    en: {
+      title: "JSAMG Social Gathering",
+      dateText: "Wednesday, August 12, 2026",
+      timeText: "7:30 PM",
+      venue: "The St. Regis Amman, Jordan",
+      description: "An evening of professional fellowship, welcoming new members, medical education, and recognition of outstanding contributions to medicine, including a Lifetime Achievement Award honoring Dr. Ziad Sharaiha for his pioneering contributions to gastroenterology and advanced medicine.",
+      occasion: "Educational Lecture",
+      speaker: "Dr. Ihab Shehadeh",
+      speakerTitle: "",
+      talkTitle: "Current Management of IBS",
+      panelTitle: "",
+      panelDescription: "",
+      dinner: "Formal dinner reception followed the program.",
+      sponsor: ""
+    },
+    ar: {
+      title: "اللقاء الاجتماعي لجمعية الأطباء خريجي الولايات المتحدة الأمريكية",
+      dateText: "الأربعاء 12 آب 2026",
+      timeText: "7:30 مساءً",
+      venue: "فندق سانت ريجيس، عمّان، الأردن",
+      description: "أمسية للتواصل المهني والترحيب بالأعضاء الجدد، تضمنت محاضرة علمية وتكريمًا للإسهامات المتميزة في الطب، وتكريم الدكتور زياد شرايحة تقديرًا لإسهاماته الرائدة في أمراض الجهاز الهضمي والطب المتقدم.",
+      occasion: "محاضرة علمية",
+      speaker: "الدكتور إيهاب شحادة",
+      speakerTitle: "",
+      talkTitle: "التدبير العلاجي الحالي لمتلازمة القولون العصبي (IBS)",
+      panelTitle: "",
+      panelDescription: "",
+      dinner: "تضمن البرنامج حفل عشاء رسميًا.",
+      sponsor: ""
+    }
+  },
+  {
     id: "2026-10-13-scientific-social-evening",
     date: "2026-10-13",
     startTime: "19:30",
