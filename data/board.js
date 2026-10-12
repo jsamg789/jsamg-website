@@ -27,13 +27,13 @@ window.JSAMG.board = [
   },
   {
     id: "vice-president",
-    photo: "",
+    photo: "images/board/Dr_sana.jpeg",
     en: { name: "Dr. Sana Al-Sukhun", position: "Vice President", specialty: "", bio: "" },
     ar: { name: "الدكتورة سناء السخن", position: "نائب الرئيس", specialty: "", bio: "" }
   },
   {
     id: "scientific-chair",
-    photo: "",
+    photo: "images/board/Dr_Ashraf.jpeg",
     en: { name: "Dr. Ashraf Haddad", position: "Chair, Scientific Committee", specialty: "", bio: "" },
     ar: { name: "الدكتور أشرف حداد", position: "رئيس اللجنة العلمية", specialty: "", bio: "" }
   },
