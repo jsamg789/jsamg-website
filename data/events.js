@@ -85,20 +85,21 @@ window.JSAMG.events = [
     categories: ["lecture", "panel", "social"],
     poster: "images/events/2026-10-13-scientific-social-evening.jpg",
     registrationLink: "",
+    galleryAlbum: "2026-10-13-scientific-social-evening",
     photos: [],
     en: {
       title: "Scientific & Social Evening",
       dateText: "Tuesday, October 13, 2026",
       timeText: "7:30–9:30 PM",
       venue: "St. Regis Hotel, Amman, Jordan",
-      description: "Members are cordially invited to an evening of medical education, professional exchange, and fellowship.",
+      description: "JSAMG held a scientific and social evening featuring a World Thrombosis Day lecture by Dr. Sana Al-Sukhun, followed by a panel with Dr. Maher Sughayer, Dr. Arafat Samara and Prof. Fareed Khdair. The audience contributed valuable insights, and the evening concluded with dinner.",
       occasion: "World Thrombosis Day",
       speaker: "Dr. Sana Al-Sukhun",
       speakerTitle: "Consultant in Medical Oncology & Hematology",
       talkTitle: "Clot, Cancer, and Choice: Anticoagulation Beyond the Oncology Clinic",
       panelTitle: "Practicing Medicine in Jordan for 10+ Years: Challenges, Opportunities & Lessons Learned",
-      panelDescription: "The discussion will explore physicians' professional experiences, challenges, opportunities, and lessons learned from practicing medicine in Jordan.",
-      dinner: "Dinner will follow the presentations.",
+      panelDescription: "The discussion explored physicians' professional experiences, challenges, opportunities, and lessons learned from practicing medicine in Jordan.",
+      dinner: "The evening concluded with dinner.",
       sponsor: "Khoury Drug Store"
     },
     ar: {
@@ -106,14 +107,14 @@ window.JSAMG.events = [
       dateText: "الثلاثاء 13 تشرين الأول 2026",
       timeText: "7:30–9:30 مساءً",
       venue: "فندق سانت ريجيس، عمّان",
-      description: "يُدعى الأعضاء إلى أمسية تجمع بين التعليم الطبي والتبادل المهني والزمالة.",
+      description: "نظمت الجمعية أمسية علمية واجتماعية تضمنت محاضرة للدكتورة سناء السخن بمناسبة اليوم العالمي للتخثر، تلتها جلسة نقاشية بمشاركة الدكتور ماهر الصغيّر والدكتور عرفات سمارة والأستاذ الدكتور فريد خضير، وتفاعل الحضور بمداخلاتهم، واختتم اللقاء بحفل عشاء.",
       occasion: "بمناسبة اليوم العالمي للتخثر",
       speaker: "الدكتورة سناء السخن",
       speakerTitle: "استشارية الأورام وأمراض الدم",
       talkTitle: "التخثر والسرطان والاختيار: العلاج بمضادات التخثر خارج عيادة الأورام",
       panelTitle: "ممارسة الطب في الأردن لأكثر من عشر سنوات: التحديات والفرص والدروس المستفادة",
-      panelDescription: "ستستعرض الجلسة تجارب الأطباء المهنية والتحديات والفرص والدروس المستفادة من ممارسة الطب في الأردن.",
-      dinner: "يتبع المحاضرات والجلسة النقاشية حفل عشاء.",
+      panelDescription: "استعرضت الجلسة تجارب الأطباء المهنية والتحديات والفرص والدروس المستفادة من ممارسة الطب في الأردن.",
+      dinner: "اختتم اللقاء بحفل عشاء.",
       sponsor: "مستودع أدوية خوري"
     }
   }

@@ -24,6 +24,22 @@ window.JSAMG.newsCategories = {
 
 window.JSAMG.news = [
   {
+    id: "2026-10-13-scientific-social-evening-report",
+    date: "2026-10-14",
+    category: "society",
+    image: "images/gallery/2026-10-13-scientific-social-evening/photo-01.jpg",
+    link: "gallery.html",
+    en: {
+      title: "JSAMG Hosts Scientific and Social Evening in Amman",
+      text: "On October 13, 2026, JSAMG hosted a scientific and social evening at The St. Regis Amman. Dr. Sana Al-Sukhun delivered a World Thrombosis Day lecture, followed by a panel on practicing medicine in Jordan for over ten years, featuring Dr. Maher Sughayer of King Hussein Cancer Center, Dr. Arafat Samara from private practice, and Prof. Fareed Khdair of the University of Jordan. Members enriched the discussion with their experiences and perspectives. The evening concluded with dinner. JSAMG thanks all attendees and Khoury Drug Store for its generous sponsorship, and looks forward to further scientific and social gatherings. View the event photo gallery."
+    },
+    ar: {
+      title: "جمعية الأطباء خريجي الولايات المتحدة الأمريكية تنظّم لقاءً علمياً واجتماعياً",
+      text: "نظّمت الجمعية (JSAMG) يوم الثلاثاء 13 تشرين الأول 2026 لقاءً علمياً واجتماعياً في فندق سانت ريجيس عمّان. استُهل اللقاء بمحاضرة علمية قيّمة للدكتورة سناء السخن بمناسبة اليوم العالمي للتخثر، تلتها جلسة نقاشية حول ممارسة الطب في الأردن لأكثر من عشر سنوات، شارك فيها الدكتور ماهر الصغيّر من مركز الحسين للسرطان، والدكتور عرفات سمارة من القطاع الخاص، والأستاذ الدكتور فريد خضير من الجامعة الأردنية. وأثرى الحضور النقاش بمداخلاتهم وتجاربهم، واختُتم اللقاء بعشاء جمع أعضاء الجمعية. وتتقدم الجمعية بالشكر لجميع المشاركين ولمستودع أدوية خوري على رعايته الكريمة، وتتطلع إلى تنظيم لقاءات علمية واجتماعية دورية قادمة. شاهدوا صور اللقاء في معرض الصور."
+    }
+  },
+
+  {
     id: "2026-08-12-social-gathering-report",
     date: "2026-08-12",
     category: "society",
@@ -39,19 +55,4 @@ window.JSAMG.news = [
     }
   },
 
-  {
-    id: "2026-10-13-event-announcement",
-    date: "2026-10-09",
-    category: "scientific",
-    image: "images/events/2026-10-13-scientific-social-evening.jpg",
-    link: "events.html",
-    en: {
-      title: "Scientific & Social Evening on World Thrombosis Day",
-      text: "JSAMG invites members to an evening of medical education and fellowship on Tuesday, October 13, 2026, at the St. Regis Hotel, Amman."
-    },
-    ar: {
-      title: "الأمسية العلمية والاجتماعية بمناسبة اليوم العالمي للتخثر",
-      text: "تدعو الجمعية أعضاءها إلى أمسية علمية واجتماعية يوم الثلاثاء 13 تشرين الأول 2026 في فندق سانت ريجيس، عمّان."
-    }
-  }
 ];
