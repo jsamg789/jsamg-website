@@ -31,12 +31,131 @@
       </div>
     </section>
 
-    <section class="section tight">
-      <div class="container">
-        <div class="filters" id="gallery-filters" role="group" data-i18n-aria="galleryPage.filterLabel"></div>
-        <div id="albums"></div>
+    
+<section class="section tight">
+  <div class="container">
+
+    <!-- Gallery tabs -->
+    <div class="gallery-tabs" role="tablist"
+         aria-label="Gallery">
+      <button type="button" id="photos-tab"
+              role="tab" aria-selected="true"
+              aria-controls="photos-panel">
+        📷 Photos | الصور
+      </button>
+      <button type="button" id="videos-tab"
+              role="tab" aria-selected="false"
+              aria-controls="videos-panel">
+        ▶ Videos | الفيديوهات
+      </button>
+    </div>
+
+    <!-- Existing photo gallery -->
+    <div id="photos-panel" role="tabpanel"
+         aria-labelledby="photos-tab">
+      <div class="filters" id="gallery-filters"
+           role="group"
+           data-i18n-aria="galleryPage.filterLabel"></div>
+      <div id="albums"></div>
+    </div>
+
+    <!-- Video gallery -->
+    <div id="videos-panel" role="tabpanel"
+         aria-labelledby="videos-tab" hidden>
+
+      <h2>JSAMG Scientific &amp; Social Evening</h2>
+      <p>October 13, 2026 | Amman, Jordan</p>
+
+      <div style="max-width:360px;margin:24px auto;">
+        <iframe
+          width="100%"
+          height="560"
+          src="https://www.youtube.com/embed/wiYwPc7g7WE"
+          title="JSAMG Scientific and Social Evening"
+          loading="lazy"
+          style="border:0;border-radius:12px;"
+          allow="accelerometer; autoplay;
+                 clipboard-write; encrypted-media;
+                 gyroscope; picture-in-picture;
+                 web-share"
+          allowfullscreen>
+        </iframe>
       </div>
-    </section>
+
+      <p>
+        Highlights from the JSAMG Scientific and
+        Social Evening, featuring a scientific
+        presentation and panel discussion.
+      </p>
+      <p dir="rtl">
+        مقتطفات من الأمسية العلمية والاجتماعية
+        لجمعية الأطباء خريجي الولايات المتحدة
+        الأمريكية، والتي تضمنت محاضرة علمية
+        ونقاشاً حوارياً.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<script>
+(function () {
+  const tabs = [
+    document.getElementById("photos-tab"),
+    document.getElementById("videos-tab")
+  ];
+  const panels = [
+    document.getElementById("photos-panel"),
+    document.getElementById("videos-panel")
+  ];
+
+  function selectTab(index) {
+    tabs.forEach((tab, i) => {
+      tab.setAttribute("aria-selected", String(i === index));
+      panels[i].hidden = i !== index;
+    });
+  }
+
+  tabs.forEach((tab, i) => {
+    tab.addEventListener("click", () => selectTab(i));
+    tab.addEventListener("keydown", e => {
+      if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+        e.preventDefault();
+        const next = e.key === "ArrowRight"
+          ? (i + 1) % tabs.length
+          : (i + tabs.length - 1) % tabs.length;
+        selectTab(next);
+        tabs[next].focus();
+      }
+    });
+  });
+})();
+</script>
+
+<style>
+.gallery-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.gallery-tabs button {
+  padding: 12px 24px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.gallery-tabs button[aria-selected="true"] {
+  background: #0b2a5b;
+  color: white;
+  border-color: #0b2a5b;
+}
+</style>
+
   </main>
 
   <footer class="site-footer"></footer>
