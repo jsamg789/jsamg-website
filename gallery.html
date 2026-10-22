@@ -32,25 +32,29 @@
     </section>
 
     
+
 <section class="section tight">
   <div class="container">
 
-    <!-- Gallery tabs -->
+    <!-- Photos and Videos tabs -->
     <div class="gallery-tabs" role="tablist"
-         aria-label="Gallery">
+         aria-label="Media Gallery">
       <button type="button" id="photos-tab"
               role="tab" aria-selected="true"
               aria-controls="photos-panel">
-        📷 Photos | الصور
+        <span class="label-en">📷 Photos</span>
+        <span class="label-ar">📷 الصور</span>
       </button>
+
       <button type="button" id="videos-tab"
               role="tab" aria-selected="false"
               aria-controls="videos-panel">
-        ▶ Videos | الفيديوهات
+        <span class="label-en">▶ Videos</span>
+        <span class="label-ar">▶ الفيديوهات</span>
       </button>
     </div>
 
-    <!-- Existing photo gallery -->
+    <!-- Existing Photo Gallery -->
     <div id="photos-panel" role="tabpanel"
          aria-labelledby="photos-tab">
       <div class="filters" id="gallery-filters"
@@ -59,12 +63,19 @@
       <div id="albums"></div>
     </div>
 
-    <!-- Video gallery -->
+    <!-- Video Gallery -->
     <div id="videos-panel" role="tabpanel"
          aria-labelledby="videos-tab" hidden>
 
-      <h2>JSAMG Scientific &amp; Social Evening</h2>
-      <p>October 13, 2026 | Amman, Jordan</p>
+      <div class="label-en">
+        <h2>JSAMG Scientific &amp; Social Evening</h2>
+        <p>October 13, 2026 | Amman, Jordan</p>
+      </div>
+
+      <div class="label-ar" dir="rtl">
+        <h2>الأمسية العلمية والاجتماعية للجمعية</h2>
+        <p>13 تشرين الأول 2026 | عمّان، الأردن</p>
+      </div>
 
       <div style="max-width:360px;margin:24px auto;">
         <iframe
@@ -82,12 +93,13 @@
         </iframe>
       </div>
 
-      <p>
+      <p class="label-en">
         Highlights from the JSAMG Scientific and
         Social Evening, featuring a scientific
         presentation and panel discussion.
       </p>
-      <p dir="rtl">
+
+      <p class="label-ar" dir="rtl">
         مقتطفات من الأمسية العلمية والاجتماعية
         لجمعية الأطباء خريجي الولايات المتحدة
         الأمريكية، والتي تضمنت محاضرة علمية
@@ -97,6 +109,7 @@
 
   </div>
 </section>
+
 
 <script>
 (function () {
