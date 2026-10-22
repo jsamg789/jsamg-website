@@ -1,23 +1,24 @@
+
 /*
-  TEXT FOR THE "GALLERY" PAGE  (English + Arabic)
-  The albums and photos themselves are in data/gallery.js
+  TEXT FOR THE "MEDIA GALLERY" PAGE
+  English + Arabic
 */
 window.JSAMG.addText("galleryPage", {
   en: {
-    metaTitle: "Photo Gallery",
+    metaTitle: "Media Gallery",
     eyebrow: "Gallery",
-    title: "Photo Gallery",
-    lead: "Photographs from the society's activities, organized in albums. Click any photograph to enlarge it.",
+    title: "Media Gallery",
+    lead: "Explore photos and videos from JSAMG scientific and social activities. Browse our photo albums and watch highlights from our events.",
     filterLabel: "Choose an album",
     filterAll: "All albums",
     photoCount: "Photos: {n}",
     empty: "No photographs have been published yet."
   },
   ar: {
-    metaTitle: "معرض الصور",
-    eyebrow: "معرض الصور",
-    title: "معرض الصور",
-    lead: "صور من أنشطة الجمعية مصنّفة في ألبومات. انقر على أي صورة لتكبيرها.",
+    metaTitle: "معرض الصور والفيديوهات",
+    eyebrow: "المعرض",
+    title: "معرض الصور والفيديوهات",
+    lead: "تصفح الصور والفيديوهات من النشاطات العلمية والاجتماعية لجمعية الأطباء خريجي الولايات المتحدة الأمريكية، وشاهد أبرز لحظات فعاليات الجمعية.",
     filterLabel: "اختر ألبوماً",
     filterAll: "جميع الألبومات",
     photoCount: "عدد الصور: {n}",
