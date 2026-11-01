@@ -1,0 +1,109 @@
+/* =========================================================
+   JSAMG — Members Directory styles (members.html only)
+   Uses the same colors and fonts as css/style.css.
+   ========================================================= */
+
+/* ---------- search and filters ---------- */
+.md-controls {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr) auto;
+  gap: 14px;
+  align-items: end;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-100);
+  border-top: 4px solid var(--burgundy);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 18px;
+}
+.md-field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.md-field label { font-size: .9rem; font-weight: 600; color: var(--navy); }
+.md-field input,
+.md-field select {
+  font: inherit;
+  font-size: 1rem;
+  color: var(--text);
+  background: #fff;
+  border: 1.5px solid var(--gray-300);
+  border-radius: 10px;
+  padding: 10px 12px;
+  width: 100%;
+  height: 46px;
+  line-height: 1.2;
+  -webkit-appearance: none; appearance: none;
+}
+.md-field select { background-image: linear-gradient(45deg, transparent 50%, var(--navy) 50%), linear-gradient(135deg, var(--navy) 50%, transparent 50%); background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%; background-size: 5px 5px; background-repeat: no-repeat; padding-inline-end: 34px; }
+html[dir="rtl"] .md-field select { background-position: 13px 50%, 18px 50%; }
+.md-field select:disabled { opacity: .55; }
+.md-field input:focus,
+.md-field select:focus { border-color: var(--royal); outline: none; box-shadow: 0 0 0 3px rgba(26, 79, 156, .18); }
+.md-reset { white-space: nowrap; min-height: 46px; padding-inline: 18px; font-size: .95rem; }
+
+/* ---------- counts ---------- */
+.md-count { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 0 0 22px; font-weight: 600; color: var(--navy); }
+.md-showing { color: var(--burgundy); }
+
+/* ---------- member cards ---------- */
+.md-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.md-grid > .empty { grid-column: 1 / -1; }
+.md-card {
+  background: #fff;
+  border: 1px solid var(--gray-100);
+  border-top: 4px solid var(--burgundy);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(11, 42, 91, .10);
+  padding: 28px 22px 22px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform .25s;
+}
+.md-card:hover { transform: translateY(-4px); }
+.md-photo {
+  width: 120px; height: 120px;
+  margin: 0 auto 14px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--gray-300);
+  background: var(--gray-100);
+  flex-shrink: 0;
+}
+.md-photo img { width: 100%; height: 100%; object-fit: cover; }
+.md-id { position: absolute; top: 10px; inset-inline-end: 12px; font-size: .75rem; color: var(--muted); background: var(--gray-100); border-radius: 6px; padding: 2px 8px; }
+.md-name { font-size: 1.3rem; margin: 0 0 .15em; }
+.md-name-alt { color: var(--muted); font-size: 1rem; margin: 0 0 10px; }
+html[lang="en"] .md-name-alt { font-family: var(--font-ar-body); }
+html[lang="ar"] .md-name-alt { font-family: var(--font-en-body); font-size: .95rem; }
+.md-specialty { color: var(--burgundy); font-weight: 700; margin: 0 0 2px; }
+.md-sub { color: var(--royal); font-weight: 600; font-size: .95rem; line-height: 1.5; margin: 0 0 6px; }
+
+.md-details { margin: 14px 0 0; padding-top: 14px; border-top: 1px solid var(--gray-100); text-align: start; font-size: .95rem; display: grid; gap: 10px; }
+.md-row { display: grid; gap: 1px; }
+.md-row dt { font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+html[lang="ar"] .md-row dt { letter-spacing: 0; font-size: .85rem; }
+.md-row dd { margin: 0; color: var(--text); line-height: 1.55; overflow-wrap: anywhere; }
+.md-type { display: block; color: var(--muted); font-size: .88rem; }
+.md-contact dd { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.md-tel, .md-book { color: var(--royal); font-weight: 600; text-decoration: none; }
+.md-tel:hover, .md-book:hover { color: var(--burgundy); text-decoration: underline; }
+html[lang="ar"] .md-tel { unicode-bidi: isolate; }
+.md-note { margin: 26px 0 0; text-align: center; }
+
+/* ---------- tablet and mobile ---------- */
+@media (max-width: 1100px) {
+  .md-controls { grid-template-columns: repeat(3, 1fr); }
+  .md-search { grid-column: 1 / -1; }
+}
+@media (max-width: 960px) {
+  .md-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .md-controls { grid-template-columns: 1fr 1fr; padding: 16px; gap: 12px; }
+  .md-reset-wrap { grid-column: 1 / -1; }
+  .md-reset { width: 100%; }
+  .md-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 380px) {
+  .md-controls { grid-template-columns: 1fr; }
+}

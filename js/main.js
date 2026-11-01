@@ -1,7 +1,8 @@
 /* =========================================================
    JSAMG — main script (used by every page)
    Handles: shared header and footer, English/Arabic switching,
-   events (upcoming/past), news, board, gallery, photo viewer.
+   events (upcoming/past), news, board, gallery, photo viewer,
+   and the Members Directory page (via js/members-directory.js).
 
    You normally never need to edit this file.
    Edit the files in the "data" folder instead.
@@ -25,6 +26,7 @@
     { key: "home", file: "index.html", nav: "home" },
     { key: "about", file: "about.html", nav: "about" },
     { key: "board", file: "board.html", nav: "board" },
+    { key: "members", file: "members.html", nav: "members" },
     { key: "events", file: "events.html", nav: "events" },
     { key: "news", file: "news.html", nav: "news" },
     { key: "gallery", file: "gallery.html", nav: "gallery" },
@@ -33,7 +35,8 @@
   ];
   var PAGE_TEXT_KEY = {
     home: null, about: "aboutPage", board: "boardPage", events: "eventsPage",
-    news: "newsPage", gallery: "galleryPage", membership: "membershipPage", contact: "contactPage"
+    news: "newsPage", gallery: "galleryPage", membership: "membershipPage", contact: "contactPage",
+    members: "membersPage"
   };
 
   var lang = "en";
@@ -322,6 +325,11 @@
     optionalBlocks(t.membershipPage, ["eligibility", "benefits", "steps"], "mem-blocks", "mem-blocks-section");
   }
 
+  /* ---------- members directory (the engine is in js/members-directory.js) ---------- */
+  function renderMembersPage() {
+    if (J.membersDirectory) J.membersDirectory.render(lang, t.membersPage);
+  }
+
   /* ---------- contact ---------- */
   function emailCardHTML(onPage) {
     return '<div class="contact-card primary"><h3>' + esc(t.contact.emailLabel) + '</h3><a class="email-link" href="mailto:' + esc(SITE.email) + '">' + esc(SITE.email) + "</a>" +
@@ -537,7 +545,8 @@
 
   var RENDERERS = {
     home: renderHome, about: renderAbout, board: renderBoardPage, events: renderEventsPage,
-    news: renderNewsPage, gallery: renderGalleryPage, membership: renderMembership, contact: renderContactPage
+    news: renderNewsPage, gallery: renderGalleryPage, membership: renderMembership, contact: renderContactPage,
+    members: renderMembersPage
   };
 
   function renderAll() {

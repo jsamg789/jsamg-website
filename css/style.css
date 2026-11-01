@@ -417,3 +417,23 @@ html[dir="rtl"] .lb-nav span { display: inline-block; transform: scaleX(-1); }
 .info-card .email-link.email-dark { color: var(--navy); }
 .section[hidden] { display: none; }
 .home-contact-wrap { max-width: 640px; margin-inline: auto; }
+
+/* =========================================================
+   MEMBERS DIRECTORY — header fit
+   The menu now has 9 items, so the header switches to the
+   compact layout (and to the ☰ menu) a little earlier.
+   ========================================================= */
+@media (min-width: 1101px) {
+  .site-nav a { padding: 8px 8px; font-size: .97rem; }
+  .brand-text > span { display: none; }
+}
+@media (max-width: 1480px) { .brand-text { display: none; } }
+@media (max-width: 1400px) { .join-btn { display: none; } }
+@media (max-width: 1240px) {
+  .menu-toggle { display: flex; }
+  .site-nav { position: absolute; top: 100%; inset-inline: 0; background: #fff; border-bottom: 1px solid var(--gray-300); box-shadow: 0 14px 24px rgba(0,0,0,.1); display: none; margin: 0; }
+  .site-nav.open { display: block; }
+  .site-nav ul { flex-direction: column; padding: 10px 20px 16px; }
+  .site-nav a { padding: 13px 10px; font-size: 1rem; }
+  .header-actions { margin-inline-start: auto; }
+}

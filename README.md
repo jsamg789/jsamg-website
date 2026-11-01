@@ -16,6 +16,7 @@ jsamg-website/
 ├── index.html          ← Home page
 ├── about.html          ← About Us
 ├── board.html          ← Board of Directors
+├── members.html        ← Members Directory (searchable)
 ├── events.html         ← Events (upcoming + past archive)
 ├── news.html           ← News & Announcements
 ├── gallery.html        ← Photo Gallery
@@ -27,6 +28,7 @@ jsamg-website/
 │   ├── events.js       ← all events
 │   ├── news.js         ← all news
 │   ├── board.js        ← Board of Directors
+│   ├── members.json    ← ★ Members Directory data (see MEMBERS_DIRECTORY_GUIDE.md)
 │   ├── gallery.js      ← photo albums
 │   ├── contact.js      ← address, telephone, social media (optional)
 │   ├── site-text.js    ← menu, footer, homepage words, official email
@@ -38,6 +40,8 @@ jsamg-website/
 │   ├── events/         ← event posters
 │   ├── news/           ← pictures for news items
 │   └── gallery/        ← gallery photographs
+│
+├── members-photos/     ← members' photographs, named by member ID (JSAMG-001.jpg …)
 │
 ├── css/style.css       ← colors and design (leave alone)
 └── js/main.js          ← the website's engine (leave alone)
@@ -182,6 +186,7 @@ The official email address is stored once, at the top of `data/site-text.js`
 | Gallery page words                  | `data/text-gallery.js`    |
 | Membership page                     | `data/text-membership.js` |
 | Contact page                        | `data/text-contact.js`    |
+| Members Directory page words        | `data/text-members.js`    |
 
 ---
 
@@ -283,3 +288,17 @@ Other useful requests:
 - After the website has its public address, search-engine extras (a sitemap,
   a robots file, and full address links for social-media previews) can be
   added in one short step with Claude.
+
+---
+
+## 15. Members Directory
+
+The searchable Members Directory (`members.html`) reads its list from
+`data/members.json`. Photographs go in `members-photos/`, named with each
+member's permanent ID (for example `JSAMG-007.jpg`) — they appear automatically.
+
+Full, step-by-step instructions (English and Arabic) are in
+**`MEMBERS_DIRECTORY_GUIDE.md`**.
+
+**Privacy:** everything in `data/members.json` is public. Never add personal
+mobile numbers, private emails, or confidential registration information.
